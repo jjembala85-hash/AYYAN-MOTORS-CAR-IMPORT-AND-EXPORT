@@ -1,0 +1,55 @@
+# Local Postgres and Redis for development.
+#
+#   docker compose up -d
+#   DATABASE_URL=postgresql://ayyan:ayyan@127.0.0.1:5432/ayyan npm run db:migrate
+#
+# Postgres here is the real thing, so it behaves like Neon or Supabase will —
+# unlike the WASM fallback behind `npm run db:local`, which serves one session at
+# a time. Redis is optional: with REDIS_URL unset the app skips the cache
+# entirely and reads straight from Postgres.
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: ayyan-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ayyan
+      POSTGRES_PASSWORD: ayyan
+      POSTGRES_DB: ayyan
+      # The catalogue is searched with a 'simple' tsvector, so collation only
+      # affects ordering — pin it anyway so sorts are reproducible across hosts.
+      LANG: C.UTF-8
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      # `next build` reads the catalogue, so CI needs to know when it can start
+      # rather than sleeping and hoping.
+      test: ["CMD-SHELL", "pg_isready -U ayyan -d ayyan"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+
+  redis:
+    image: redis:7-alpine
+    container_name: ayyan-redis
+    restart: unless-stopped
+    # `allkeys-lru` so a full cache evicts rather than refusing writes: every key
+    # here is a rebuildable copy of something in Postgres, and losing the coldest
+    # one is always better than failing the write. 256mb is far above what this
+    # catalogue needs — it is a ceiling, not a reservation.
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru --save ""
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+      start_period: 2s
+
+volumes:
+  postgres-data:

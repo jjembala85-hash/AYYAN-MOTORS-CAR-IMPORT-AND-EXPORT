@@ -1,0 +1,468 @@
+[
+  {
+    "id": "86c41f80-6b38-4eea-8df3-cc44a5d83ab0",
+    "make": "ISUZU",
+    "model": "FORWARD",
+    "year": 2017,
+    "condition": "Used",
+    "body_type": "Truck",
+    "folder": "isuzu-forward-2017",
+    "images": [
+      "isuzu-forward-2017/isuzu-forward-2017-01.jpeg",
+      "isuzu-forward-2017/isuzu-forward-2017-02.jpeg",
+      "isuzu-forward-2017/isuzu-forward-2017-03.jpeg",
+      "isuzu-forward-2017/isuzu-forward-2017-04.jpeg",
+      "isuzu-forward-2017/isuzu-forward-2017-05.jpeg",
+      "isuzu-forward-2017/isuzu-forward-2017-06.jpeg",
+      "isuzu-forward-2017/isuzu-forward-2017-07.jpeg",
+      "isuzu-forward-2017/isuzu-forward-2017-08.jpeg"
+    ]
+  },
+  {
+    "id": "3b6e72e3-d960-4060-98a0-cfbbd4d59169",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2018,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "mercedes-benz-gle-2018",
+    "images": [
+      "mercedes-benz-gle-2018/mercedes-benz-gle-2018-01.jpeg",
+      "mercedes-benz-gle-2018/mercedes-benz-gle-2018-02.jpeg",
+      "mercedes-benz-gle-2018/mercedes-benz-gle-2018-03.jpeg",
+      "mercedes-benz-gle-2018/mercedes-benz-gle-2018-04.jpeg",
+      "mercedes-benz-gle-2018/mercedes-benz-gle-2018-05.jpeg",
+      "mercedes-benz-gle-2018/mercedes-benz-gle-2018-06.jpeg"
+    ]
+  },
+  {
+    "id": "123a71f4-b1a7-4bc9-8921-26be241f7405",
+    "make": "Toyota",
+    "model": "Fortuner GR Sport",
+    "year": 2026,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "toyota-fortuner-gr-sport-2026",
+    "images": [
+      "toyota-fortuner-gr-sport-2026/toyota-fortuner-gr-sport-2026-01.jpeg",
+      "toyota-fortuner-gr-sport-2026/toyota-fortuner-gr-sport-2026-02.jpeg",
+      "toyota-fortuner-gr-sport-2026/toyota-fortuner-gr-sport-2026-03.jpeg",
+      "toyota-fortuner-gr-sport-2026/toyota-fortuner-gr-sport-2026-04.jpeg"
+    ]
+  },
+  {
+    "id": "c89daeb8-6896-447a-99b9-1028de7c8e51",
+    "make": "BRABUS",
+    "model": "G-WAGON",
+    "year": 2025,
+    "condition": "New",
+    "body_type": "SUV",
+    "folder": "brabus-g-wagon-2025",
+    "images": [
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-01.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-02.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-03.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-04.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-05.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-06.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-07.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-08.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-09.jpeg",
+      "brabus-g-wagon-2025/brabus-g-wagon-2025-10.jpeg"
+    ]
+  },
+  {
+    "id": "e1f4d892-7839-423a-92d2-e07a7038a14d",
+    "make": "Jeep",
+    "model": "Gladiator",
+    "year": 2024,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "jeep-gladiator-2024",
+    "images": [
+      "jeep-gladiator-2024/jeep-gladiator-2024-01.jpeg",
+      "jeep-gladiator-2024/jeep-gladiator-2024-02.jpeg",
+      "jeep-gladiator-2024/jeep-gladiator-2024-03.jpeg",
+      "jeep-gladiator-2024/jeep-gladiator-2024-04.jpeg"
+    ]
+  },
+  {
+    "id": "04dff70e-9f11-479e-a228-bf4ed43c3056",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2018,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "jeep-wrangler-2018",
+    "images": [
+      "jeep-wrangler-2018/jeep-wrangler-2018-01.jpeg",
+      "jeep-wrangler-2018/jeep-wrangler-2018-02.jpeg",
+      "jeep-wrangler-2018/jeep-wrangler-2018-03.jpeg",
+      "jeep-wrangler-2018/jeep-wrangler-2018-04.jpeg",
+      "jeep-wrangler-2018/jeep-wrangler-2018-05.jpeg",
+      "jeep-wrangler-2018/jeep-wrangler-2018-06.jpeg"
+    ]
+  },
+  {
+    "id": "e1e64e9f-cfc8-4d6e-bc78-30ae68fd9031",
+    "make": "FORD",
+    "model": "RAPTOR",
+    "year": 2025,
+    "condition": "Used",
+    "body_type": "Pickup",
+    "folder": "ford-raptor-2025",
+    "images": [
+      "ford-raptor-2025/ford-raptor-2025-01.jpeg",
+      "ford-raptor-2025/ford-raptor-2025-02.jpeg",
+      "ford-raptor-2025/ford-raptor-2025-03.jpeg",
+      "ford-raptor-2025/ford-raptor-2025-04.jpeg",
+      "ford-raptor-2025/ford-raptor-2025-05.jpeg",
+      "ford-raptor-2025/ford-raptor-2025-06.jpeg",
+      "ford-raptor-2025/ford-raptor-2025-07.jpeg",
+      "ford-raptor-2025/ford-raptor-2025-08.jpeg"
+    ]
+  },
+  {
+    "id": "4583f738-79b6-4176-a49e-fac7522daabd",
+    "make": "Toyota",
+    "model": "Hilux Revo Smart Cab",
+    "year": 2019,
+    "condition": "Used",
+    "body_type": "Sedan",
+    "folder": "toyota-hilux-revo-smart-cab-2019",
+    "images": [
+      "toyota-hilux-revo-smart-cab-2019/toyota-hilux-revo-smart-cab-2019-01.jpeg",
+      "toyota-hilux-revo-smart-cab-2019/toyota-hilux-revo-smart-cab-2019-02.jpeg",
+      "toyota-hilux-revo-smart-cab-2019/toyota-hilux-revo-smart-cab-2019-03.jpeg",
+      "toyota-hilux-revo-smart-cab-2019/toyota-hilux-revo-smart-cab-2019-04.jpeg",
+      "toyota-hilux-revo-smart-cab-2019/toyota-hilux-revo-smart-cab-2019-05.jpeg",
+      "toyota-hilux-revo-smart-cab-2019/toyota-hilux-revo-smart-cab-2019-06.jpeg",
+      "toyota-hilux-revo-smart-cab-2019/toyota-hilux-revo-smart-cab-2019-07.jpeg"
+    ]
+  },
+  {
+    "id": "2b025aeb-3958-469a-acbb-e0cde079151b",
+    "make": "MAZDA",
+    "model": "CX-5",
+    "year": 2017,
+    "condition": "Used",
+    "body_type": "SUV",
+    "folder": "mazda-cx-5-2017",
+    "images": [
+      "mazda-cx-5-2017/mazda-cx-5-2017-01.jpeg",
+      "mazda-cx-5-2017/mazda-cx-5-2017-02.jpeg",
+      "mazda-cx-5-2017/mazda-cx-5-2017-03.jpeg",
+      "mazda-cx-5-2017/mazda-cx-5-2017-04.jpeg",
+      "mazda-cx-5-2017/mazda-cx-5-2017-05.jpeg",
+      "mazda-cx-5-2017/mazda-cx-5-2017-06.jpeg",
+      "mazda-cx-5-2017/mazda-cx-5-2017-07.jpeg"
+    ]
+  },
+  {
+    "id": "f32f6c4e-c119-4aac-9ece-7c7b911a2035",
+    "make": "Ford",
+    "model": " Ranger Raptor",
+    "year": 2025,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "ford-ranger-raptor-2025",
+    "images": [
+      "ford-ranger-raptor-2025/ford-ranger-raptor-2025-01.jpeg",
+      "ford-ranger-raptor-2025/ford-ranger-raptor-2025-02.jpeg",
+      "ford-ranger-raptor-2025/ford-ranger-raptor-2025-03.jpeg",
+      "ford-ranger-raptor-2025/ford-ranger-raptor-2025-04.jpeg",
+      "ford-ranger-raptor-2025/ford-ranger-raptor-2025-05.jpeg",
+      "ford-ranger-raptor-2025/ford-ranger-raptor-2025-06.jpeg",
+      "ford-ranger-raptor-2025/ford-ranger-raptor-2025-07.jpeg"
+    ]
+  },
+  {
+    "id": "6c9e9f35-7deb-422e-8141-291b215716a3",
+    "make": "Toyota",
+    "model": "Hiace Commuter",
+    "year": 2026,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "toyota-hiace-commuter-2026",
+    "images": [
+      "toyota-hiace-commuter-2026/toyota-hiace-commuter-2026-01.jpeg",
+      "toyota-hiace-commuter-2026/toyota-hiace-commuter-2026-02.jpeg",
+      "toyota-hiace-commuter-2026/toyota-hiace-commuter-2026-03.jpeg",
+      "toyota-hiace-commuter-2026/toyota-hiace-commuter-2026-04.jpeg"
+    ]
+  },
+  {
+    "id": "076ac9b5-d3f3-4d8c-aa57-61c9f90f0404",
+    "make": "Toyota",
+    "model": "Hilux Revo",
+    "year": 2021,
+    "condition": "Used",
+    "body_type": "Pickup",
+    "folder": "toyota-hilux-revo-2021",
+    "images": [
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-01.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-02.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-03.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-04.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-05.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-06.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-07.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-08.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-09.jpeg",
+      "toyota-hilux-revo-2021/toyota-hilux-revo-2021-10.jpeg"
+    ]
+  },
+  {
+    "id": "8dda15e8-a792-4e6f-8327-86d4042c1851",
+    "make": "Toyota",
+    "model": "Fortuner Legender",
+    "year": 2026,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "toyota-fortuner-legender-2026",
+    "images": [
+      "toyota-fortuner-legender-2026/toyota-fortuner-legender-2026-01.jpeg",
+      "toyota-fortuner-legender-2026/toyota-fortuner-legender-2026-02.jpeg",
+      "toyota-fortuner-legender-2026/toyota-fortuner-legender-2026-03.jpeg",
+      "toyota-fortuner-legender-2026/toyota-fortuner-legender-2026-04.jpeg",
+      "toyota-fortuner-legender-2026/toyota-fortuner-legender-2026-05.jpeg"
+    ]
+  },
+  {
+    "id": "83e730f6-3320-4718-8c02-fa81cd0e43a6",
+    "make": "Toyota",
+    "model": "Hilux Revo Double Cab",
+    "year": 2020,
+    "condition": "Used",
+    "body_type": "Sedan",
+    "folder": "toyota-hilux-revo-double-cab-2020",
+    "images": [
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-01.jpeg",
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-02.jpeg",
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-03.jpeg",
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-04.jpeg",
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-05.jpeg",
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-06.jpeg",
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-07.jpeg",
+      "toyota-hilux-revo-double-cab-2020/toyota-hilux-revo-double-cab-2020-08.jpeg"
+    ]
+  },
+  {
+    "id": "e6344379-b20e-4397-82dd-324a30904721",
+    "make": "Toyota",
+    "model": "Hilux",
+    "year": 2018,
+    "condition": "Used",
+    "body_type": "Pickup",
+    "folder": "toyota-hilux-2018",
+    "images": [
+      "toyota-hilux-2018/toyota-hilux-2018-01.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-02.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-03.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-04.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-05.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-06.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-07.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-08.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-09.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-10.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-11.jpeg",
+      "toyota-hilux-2018/toyota-hilux-2018-12.jpeg"
+    ]
+  },
+  {
+    "id": "826d7ab1-a7f5-4ad9-8929-98d52c6fc280",
+    "make": "Mitsubishi",
+    "model": "Fighter Fuso",
+    "year": 2019,
+    "condition": "Used",
+    "body_type": "Truck",
+    "folder": "mitsubishi-fighter-fuso-2019",
+    "images": [
+      "mitsubishi-fighter-fuso-2019/mitsubishi-fighter-fuso-2019-01.jpeg",
+      "mitsubishi-fighter-fuso-2019/mitsubishi-fighter-fuso-2019-02.jpeg",
+      "mitsubishi-fighter-fuso-2019/mitsubishi-fighter-fuso-2019-03.jpeg",
+      "mitsubishi-fighter-fuso-2019/mitsubishi-fighter-fuso-2019-04.jpeg",
+      "mitsubishi-fighter-fuso-2019/mitsubishi-fighter-fuso-2019-05.jpeg"
+    ]
+  },
+  {
+    "id": "5b343fa4-adb9-42cc-9535-6ed5064ac59e",
+    "make": "Land Rover",
+    "model": "Range Rover",
+    "year": 2018,
+    "condition": "Used",
+    "body_type": "SUV",
+    "folder": "land-rover-range-rover-2018",
+    "images": [
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-01.jpeg",
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-02.jpeg",
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-03.jpeg",
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-04.jpeg",
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-05.jpeg",
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-06.jpeg",
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-07.jpeg",
+      "land-rover-range-rover-2018/land-rover-range-rover-2018-08.jpeg"
+    ]
+  },
+  {
+    "id": "e7c8e408-a2f3-400f-809e-ae0a46f5fe27",
+    "make": "Toyota",
+    "model": "Hilux Rocco",
+    "year": 2024,
+    "condition": "Used",
+    "body_type": "Pickup",
+    "folder": "toyota-hilux-rocco-2024",
+    "images": [
+      "toyota-hilux-rocco-2024/toyota-hilux-rocco-2024-01.jpeg",
+      "toyota-hilux-rocco-2024/toyota-hilux-rocco-2024-02.jpeg",
+      "toyota-hilux-rocco-2024/toyota-hilux-rocco-2024-03.jpeg",
+      "toyota-hilux-rocco-2024/toyota-hilux-rocco-2024-04.jpeg",
+      "toyota-hilux-rocco-2024/toyota-hilux-rocco-2024-05.jpeg",
+      "toyota-hilux-rocco-2024/toyota-hilux-rocco-2024-06.jpeg",
+      "toyota-hilux-rocco-2024/toyota-hilux-rocco-2024-07.jpeg"
+    ]
+  },
+  {
+    "id": "1929a276-1989-4040-9c34-3062fed8127e",
+    "make": "Mercedes-Benz",
+    "model": " C180 Cabriolet Sport",
+    "year": 2017,
+    "condition": "Used",
+    "body_type": "Convertible",
+    "folder": "mercedes-benz-c180-cabriolet-sport-2017",
+    "images": [
+      "mercedes-benz-c180-cabriolet-sport-2017/mercedes-benz-c180-cabriolet-sport-2017-01.jpeg",
+      "mercedes-benz-c180-cabriolet-sport-2017/mercedes-benz-c180-cabriolet-sport-2017-02.jpeg",
+      "mercedes-benz-c180-cabriolet-sport-2017/mercedes-benz-c180-cabriolet-sport-2017-03.jpeg",
+      "mercedes-benz-c180-cabriolet-sport-2017/mercedes-benz-c180-cabriolet-sport-2017-04.jpeg",
+      "mercedes-benz-c180-cabriolet-sport-2017/mercedes-benz-c180-cabriolet-sport-2017-05.jpeg"
+    ]
+  },
+  {
+    "id": "d9078704-1a41-4681-a603-a31aef38485f",
+    "make": "JEEP",
+    "model": "Gladiator Rubicon",
+    "year": 2023,
+    "condition": "New",
+    "body_type": "SUV",
+    "folder": "jeep-gladiator-rubicon-2023",
+    "images": [
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-01.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-02.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-03.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-04.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-05.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-06.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-07.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-08.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-09.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-10.jpeg",
+      "jeep-gladiator-rubicon-2023/jeep-gladiator-rubicon-2023-11.jpeg"
+    ]
+  },
+  {
+    "id": "1cca9fc4-0019-46d6-9328-4e393e666bf8",
+    "make": "Ford",
+    "model": "Ranger Wildtrak",
+    "year": 2022,
+    "condition": "Used",
+    "body_type": "Sedan",
+    "folder": "ford-ranger-wildtrak-2022",
+    "images": [
+      "ford-ranger-wildtrak-2022/ford-ranger-wildtrak-2022-01.jpeg",
+      "ford-ranger-wildtrak-2022/ford-ranger-wildtrak-2022-02.jpeg",
+      "ford-ranger-wildtrak-2022/ford-ranger-wildtrak-2022-03.jpeg",
+      "ford-ranger-wildtrak-2022/ford-ranger-wildtrak-2022-04.jpeg",
+      "ford-ranger-wildtrak-2022/ford-ranger-wildtrak-2022-05.jpeg",
+      "ford-ranger-wildtrak-2022/ford-ranger-wildtrak-2022-06.jpeg",
+      "ford-ranger-wildtrak-2022/ford-ranger-wildtrak-2022-07.jpeg"
+    ]
+  },
+  {
+    "id": "c8bc239c-8b81-499c-98af-56b23785dd9d",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2018,
+    "condition": "New",
+    "body_type": "SUV",
+    "folder": "toyota-rav4-2018",
+    "images": [
+      "toyota-rav4-2018/toyota-rav4-2018-01.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-02.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-03.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-04.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-05.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-06.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-07.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-08.jpeg",
+      "toyota-rav4-2018/toyota-rav4-2018-09.jpeg"
+    ]
+  },
+  {
+    "id": "3e7d3f94-b093-4d65-8938-dab119dc6d7b",
+    "make": "Toyota",
+    "model": "Land Cruiser FJ",
+    "year": 2026,
+    "condition": "New",
+    "body_type": "Sedan",
+    "folder": "toyota-land-cruiser-fj-2026",
+    "images": [
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-01.webp",
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-02.jpeg",
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-03.jpeg",
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-04.jpeg",
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-05.jpeg",
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-06.jpeg",
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-07.jpeg",
+      "toyota-land-cruiser-fj-2026/toyota-land-cruiser-fj-2026-08.jpeg"
+    ]
+  },
+  {
+    "id": "35566308-e76a-4223-acf6-c437e363bc7f",
+    "make": "Toyota ",
+    "model": "Land Cruiser Prado TXL",
+    "year": 2017,
+    "condition": "Used",
+    "body_type": "SUV",
+    "folder": "toyota-land-cruiser-prado-txl-2017",
+    "images": [
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-01.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-02.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-03.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-04.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-05.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-06.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-07.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-08.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-09.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-10.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-11.jpeg",
+      "toyota-land-cruiser-prado-txl-2017/toyota-land-cruiser-prado-txl-2017-12.jpeg"
+    ]
+  },
+  {
+    "id": "4a74dd20-fbf7-4519-a2af-bc99c4b51e23",
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "year": 2024,
+    "condition": "Used",
+    "body_type": "SUV",
+    "folder": "toyota-land-cruiser-2024",
+    "images": [
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-01.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-02.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-03.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-04.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-05.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-06.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-07.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-08.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-09.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-10.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-11.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-12.jpeg",
+      "toyota-land-cruiser-2024/toyota-land-cruiser-2024-13.jpeg"
+    ]
+  }
+]

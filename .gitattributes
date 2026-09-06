@@ -1,0 +1,14 @@
+# Store every text file with LF in the repository, whatever the checkout does.
+#
+# Added before the first real commit deliberately: without it, committing from
+# Windows records CRLF for some files and LF for others depending on who touched
+# them last, and a later fix rewrites thousands of lines in a diff that hides the
+# actual change. `text=auto` lets Git detect text vs binary, so the JPEGs under
+# assets/ and public/ are left alone.
+* text=auto eol=lf
+
+# Lockfiles are generated — never worth a merge conflict resolution by hand.
+package-lock.json -diff linguist-generated
+
+# Drizzle writes these; they are data, not code to review line by line.
+drizzle/meta/*.json -diff linguist-generated

@@ -1,0 +1,423 @@
+{
+  "curated": [
+    {
+      "vehicle": "ford-raptor-2025",
+      "tier": "A",
+      "note": "Golden-hour, 16:9, evenly lit. Best set in the library.",
+      "kept": 6,
+      "of": 8,
+      "images": [
+        {
+          "file": "ford-raptor-2025-cover.jpeg",
+          "from": "ford-raptor-2025-01.jpeg"
+        },
+        {
+          "file": "ford-raptor-2025-02.jpeg",
+          "from": "ford-raptor-2025-05.jpeg"
+        },
+        {
+          "file": "ford-raptor-2025-03.jpeg",
+          "from": "ford-raptor-2025-02.jpeg"
+        },
+        {
+          "file": "ford-raptor-2025-04.jpeg",
+          "from": "ford-raptor-2025-03.jpeg"
+        },
+        {
+          "file": "ford-raptor-2025-05.jpeg",
+          "from": "ford-raptor-2025-08.jpeg"
+        },
+        {
+          "file": "ford-raptor-2025-06.jpeg",
+          "from": "ford-raptor-2025-07.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "ford-ranger-raptor-2025",
+      "tier": "A",
+      "note": "Bright, level, ~1200px. #7 is a byte-identical copy of #1.",
+      "kept": 4,
+      "of": 7,
+      "images": [
+        {
+          "file": "ford-ranger-raptor-2025-cover.jpeg",
+          "from": "ford-ranger-raptor-2025-01.jpeg"
+        },
+        {
+          "file": "ford-ranger-raptor-2025-02.jpeg",
+          "from": "ford-ranger-raptor-2025-02.jpeg"
+        },
+        {
+          "file": "ford-ranger-raptor-2025-03.jpeg",
+          "from": "ford-ranger-raptor-2025-05.jpeg"
+        },
+        {
+          "file": "ford-ranger-raptor-2025-04.jpeg",
+          "from": "ford-ranger-raptor-2025-03.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-hilux-revo-2021",
+      "tier": "A",
+      "note": "Highest resolution here (1600px). Backgrounds are cluttered.",
+      "kept": 4,
+      "of": 10,
+      "images": [
+        {
+          "file": "toyota-hilux-revo-2021-cover.jpeg",
+          "from": "toyota-hilux-revo-2021-01.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-2021-02.jpeg",
+          "from": "toyota-hilux-revo-2021-02.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-2021-03.jpeg",
+          "from": "toyota-hilux-revo-2021-08.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-2021-04.jpeg",
+          "from": "toyota-hilux-revo-2021-09.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-fortuner-gr-sport-2026",
+      "tier": "A",
+      "note": "Clean showroom, brand new. #2 duplicates #1; #4 is wrapped seats.",
+      "kept": 2,
+      "of": 4,
+      "images": [
+        {
+          "file": "toyota-fortuner-gr-sport-2026-cover.jpeg",
+          "from": "toyota-fortuner-gr-sport-2026-01.jpeg"
+        },
+        {
+          "file": "toyota-fortuner-gr-sport-2026-02.jpeg",
+          "from": "toyota-fortuner-gr-sport-2026-03.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "jeep-gladiator-rubicon-2023",
+      "tier": "A",
+      "note": "Styled and moody, but heavily filtered/vignetted. #1/#2/#5 are tilted.",
+      "kept": 4,
+      "of": 11,
+      "images": [
+        {
+          "file": "jeep-gladiator-rubicon-2023-cover.jpeg",
+          "from": "jeep-gladiator-rubicon-2023-11.jpeg"
+        },
+        {
+          "file": "jeep-gladiator-rubicon-2023-02.jpeg",
+          "from": "jeep-gladiator-rubicon-2023-10.jpeg"
+        },
+        {
+          "file": "jeep-gladiator-rubicon-2023-03.jpeg",
+          "from": "jeep-gladiator-rubicon-2023-07.jpeg"
+        },
+        {
+          "file": "jeep-gladiator-rubicon-2023-04.jpeg",
+          "from": "jeep-gladiator-rubicon-2023-08.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "brabus-g-wagon-2025",
+      "tier": "A",
+      "note": "#7 is the only clean exterior; interiors are strong.",
+      "kept": 4,
+      "of": 10,
+      "images": [
+        {
+          "file": "brabus-g-wagon-2025-cover.jpeg",
+          "from": "brabus-g-wagon-2025-07.jpeg"
+        },
+        {
+          "file": "brabus-g-wagon-2025-02.jpeg",
+          "from": "brabus-g-wagon-2025-03.jpeg"
+        },
+        {
+          "file": "brabus-g-wagon-2025-03.jpeg",
+          "from": "brabus-g-wagon-2025-02.jpeg"
+        },
+        {
+          "file": "brabus-g-wagon-2025-04.jpeg",
+          "from": "brabus-g-wagon-2025-08.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "mercedes-benz-c180-cabriolet-sport-2017",
+      "tier": "B",
+      "note": "Auction hall, neutral background \u2014 cuts out well. Only 640px.",
+      "kept": 3,
+      "of": 5,
+      "images": [
+        {
+          "file": "mercedes-benz-c180-cabriolet-sport-2017-cover.jpeg",
+          "from": "mercedes-benz-c180-cabriolet-sport-2017-01.jpeg"
+        },
+        {
+          "file": "mercedes-benz-c180-cabriolet-sport-2017-02.jpeg",
+          "from": "mercedes-benz-c180-cabriolet-sport-2017-02.jpeg"
+        },
+        {
+          "file": "mercedes-benz-c180-cabriolet-sport-2017-03.jpeg",
+          "from": "mercedes-benz-c180-cabriolet-sport-2017-03.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-hilux-revo-double-cab-2020",
+      "tier": "B",
+      "note": "Consistent dealer-lot set. 700px.",
+      "kept": 4,
+      "of": 8,
+      "images": [
+        {
+          "file": "toyota-hilux-revo-double-cab-2020-cover.jpeg",
+          "from": "toyota-hilux-revo-double-cab-2020-01.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-double-cab-2020-02.jpeg",
+          "from": "toyota-hilux-revo-double-cab-2020-03.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-double-cab-2020-03.jpeg",
+          "from": "toyota-hilux-revo-double-cab-2020-05.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-double-cab-2020-04.jpeg",
+          "from": "toyota-hilux-revo-double-cab-2020-08.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-hilux-revo-smart-cab-2019",
+      "tier": "B",
+      "note": "Consistent dealer-lot set. 700px.",
+      "kept": 4,
+      "of": 7,
+      "images": [
+        {
+          "file": "toyota-hilux-revo-smart-cab-2019-cover.jpeg",
+          "from": "toyota-hilux-revo-smart-cab-2019-01.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-smart-cab-2019-02.jpeg",
+          "from": "toyota-hilux-revo-smart-cab-2019-02.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-smart-cab-2019-03.jpeg",
+          "from": "toyota-hilux-revo-smart-cab-2019-03.jpeg"
+        },
+        {
+          "file": "toyota-hilux-revo-smart-cab-2019-04.jpeg",
+          "from": "toyota-hilux-revo-smart-cab-2019-07.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-hiace-commuter-2026",
+      "tier": "B",
+      "note": "Clean, complete walkaround. 700px.",
+      "kept": 4,
+      "of": 4,
+      "images": [
+        {
+          "file": "toyota-hiace-commuter-2026-cover.jpeg",
+          "from": "toyota-hiace-commuter-2026-01.jpeg"
+        },
+        {
+          "file": "toyota-hiace-commuter-2026-02.jpeg",
+          "from": "toyota-hiace-commuter-2026-03.jpeg"
+        },
+        {
+          "file": "toyota-hiace-commuter-2026-03.jpeg",
+          "from": "toyota-hiace-commuter-2026-04.jpeg"
+        },
+        {
+          "file": "toyota-hiace-commuter-2026-04.jpeg",
+          "from": "toyota-hiace-commuter-2026-02.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-fortuner-legender-2026",
+      "tier": "B",
+      "note": "Clean but small (700px).",
+      "kept": 3,
+      "of": 5,
+      "images": [
+        {
+          "file": "toyota-fortuner-legender-2026-cover.jpeg",
+          "from": "toyota-fortuner-legender-2026-01.jpeg"
+        },
+        {
+          "file": "toyota-fortuner-legender-2026-02.jpeg",
+          "from": "toyota-fortuner-legender-2026-04.jpeg"
+        },
+        {
+          "file": "toyota-fortuner-legender-2026-03.jpeg",
+          "from": "toyota-fortuner-legender-2026-02.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "ford-ranger-wildtrak-2022",
+      "tier": "B",
+      "note": "Red plate-blanking boxes are visible in most frames.",
+      "kept": 4,
+      "of": 7,
+      "images": [
+        {
+          "file": "ford-ranger-wildtrak-2022-cover.jpeg",
+          "from": "ford-ranger-wildtrak-2022-07.jpeg"
+        },
+        {
+          "file": "ford-ranger-wildtrak-2022-02.jpeg",
+          "from": "ford-ranger-wildtrak-2022-01.jpeg"
+        },
+        {
+          "file": "ford-ranger-wildtrak-2022-03.jpeg",
+          "from": "ford-ranger-wildtrak-2022-02.jpeg"
+        },
+        {
+          "file": "ford-ranger-wildtrak-2022-04.jpeg",
+          "from": "ford-ranger-wildtrak-2022-06.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "mazda-cx-5-2017",
+      "tier": "B",
+      "note": "Auction photos, 640px. #5/#6 near-identical.",
+      "kept": 4,
+      "of": 7,
+      "images": [
+        {
+          "file": "mazda-cx-5-2017-cover.jpeg",
+          "from": "mazda-cx-5-2017-01.jpeg"
+        },
+        {
+          "file": "mazda-cx-5-2017-02.jpeg",
+          "from": "mazda-cx-5-2017-05.jpeg"
+        },
+        {
+          "file": "mazda-cx-5-2017-03.jpeg",
+          "from": "mazda-cx-5-2017-04.jpeg"
+        },
+        {
+          "file": "mazda-cx-5-2017-04.jpeg",
+          "from": "mazda-cx-5-2017-02.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-rav4-2018",
+      "tier": "B",
+      "note": "#1/#2/#4 are the same file three times.",
+      "kept": 4,
+      "of": 9,
+      "images": [
+        {
+          "file": "toyota-rav4-2018-cover.jpeg",
+          "from": "toyota-rav4-2018-01.jpeg"
+        },
+        {
+          "file": "toyota-rav4-2018-02.jpeg",
+          "from": "toyota-rav4-2018-08.jpeg"
+        },
+        {
+          "file": "toyota-rav4-2018-03.jpeg",
+          "from": "toyota-rav4-2018-07.jpeg"
+        },
+        {
+          "file": "toyota-rav4-2018-04.jpeg",
+          "from": "toyota-rav4-2018-09.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-hilux-2018",
+      "tier": "B",
+      "note": "Ayyan's own Kampala photos. Busy street backgrounds.",
+      "kept": 4,
+      "of": 12,
+      "images": [
+        {
+          "file": "toyota-hilux-2018-cover.jpeg",
+          "from": "toyota-hilux-2018-01.jpeg"
+        },
+        {
+          "file": "toyota-hilux-2018-02.jpeg",
+          "from": "toyota-hilux-2018-02.jpeg"
+        },
+        {
+          "file": "toyota-hilux-2018-03.jpeg",
+          "from": "toyota-hilux-2018-05.jpeg"
+        },
+        {
+          "file": "toyota-hilux-2018-04.jpeg",
+          "from": "toyota-hilux-2018-11.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-hilux-rocco-2024",
+      "tier": "B",
+      "note": "Avoid #6/#7 \u2014 another dealer's plate branding.",
+      "kept": 3,
+      "of": 7,
+      "images": [
+        {
+          "file": "toyota-hilux-rocco-2024-cover.jpeg",
+          "from": "toyota-hilux-rocco-2024-01.jpeg"
+        },
+        {
+          "file": "toyota-hilux-rocco-2024-02.jpeg",
+          "from": "toyota-hilux-rocco-2024-02.jpeg"
+        },
+        {
+          "file": "toyota-hilux-rocco-2024-03.jpeg",
+          "from": "toyota-hilux-rocco-2024-03.jpeg"
+        }
+      ]
+    },
+    {
+      "vehicle": "toyota-land-cruiser-prado-txl-2017",
+      "tier": "B",
+      "note": "Auction yard, 640px, other cars in frame.",
+      "kept": 3,
+      "of": 12,
+      "images": [
+        {
+          "file": "toyota-land-cruiser-prado-txl-2017-cover.jpeg",
+          "from": "toyota-land-cruiser-prado-txl-2017-01.jpeg"
+        },
+        {
+          "file": "toyota-land-cruiser-prado-txl-2017-02.jpeg",
+          "from": "toyota-land-cruiser-prado-txl-2017-07.jpeg"
+        },
+        {
+          "file": "toyota-land-cruiser-prado-txl-2017-03.jpeg",
+          "from": "toyota-land-cruiser-prado-txl-2017-05.jpeg"
+        }
+      ]
+    }
+  ],
+  "excluded": {
+    "toyota-land-cruiser-2024": "Every exterior carries a rival dealer's branding (Nexstage) on the plate. Interiors (#3,#5,#6,#10,#11) are clean if you need them.",
+    "toyota-land-cruiser-fj-2026": "AUTOLIFE watermark burned into #2-#8. #1 is a Toyota press render on white.",
+    "land-rover-range-rover-2018": "'NOTE 50S' phone-camera watermark bar burned across the bottom of all 8. Croppable, but every frame needs it.",
+    "mercedes-benz-gle-2018": "Tilted, dim, awkwardly cropped. #3 is sideways. Only #2 is usable.",
+    "jeep-wrangler-2018": "Camera rotated in 4 of 6. Only #3 and #5 are level; no interior shots at all.",
+    "isuzu-forward-2017": "8 files, 3 unique images. All tilted.",
+    "mitsubishi-fighter-fuso-2019": "No full-vehicle shot exists; #1 and #5 are the same file.",
+    "jeep-gladiator-2024": "Unusable \u2014 4 files, 3 unique, all partial crops in dappled shade. #1 and #4 identical."
+  }
+}

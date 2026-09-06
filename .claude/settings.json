@@ -5,7 +5,24 @@
       "Bash(python -c ' *)",
       "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --yes)",
       "Bash(mv assets *)",
-      "Bash(echo \"=== exit: $? ===\")"
+      "Bash(echo \"=== exit: $? ===\")",
+      "Bash(mv ../ayyan-assets-tmp assets)",
+      "Bash(node -p \"const p=require\\('./package.json'\\); JSON.stringify\\({next:p.dependencies.next,react:p.dependencies.react,tw:p.devDependencies.tailwindcss,ts:p.devDependencies.typescript},null,1\\)\")",
+      "Bash(npm install *)",
+      "Bash(node -e ' *)",
+      "Bash(python \"C:/Users/HP/AppData/Local/Temp/claude/c--Users-HP-Desktop-ayyan/d67697fc-ed4d-4d13-956c-06323937ea12/scratchpad/gen_data.py\")",
+      "Bash(npx tsc *)",
+      "Bash(echo \"=== tsc exit: $? ===\")",
+      "Bash(npm run *)",
+      "Bash(node -e \"const t=require\\('fs'\\).readFileSync\\('tsconfig.json','utf8'\\);console.log\\(t\\)\")",
+      "PowerShell(npm run build 2>&1)",
+      "PowerShell(npm run lint 2>&1)",
+      "Bash(cat /tmp/next-start.log 2>&1 | head -30)",
+      "Read(//tmp/**)",
+      "Bash(npx next *)",
+      "Bash(netstat -ano)",
+      "PowerShell(foreach \\($p in 10952,6720,7600\\) { try { Stop-Process -Id $p -Force -ErrorAction Stop; \"stopped $p\" } catch { \"already gone: $p\" } })",
+      "PowerShell(npm install drizzle-orm @neondatabase/serverless postgres graphql@^16 graphql-yoga dataloader 2>&1 | Select-Object -Last 8; \"--- deps: $LASTEXITCODE ---\")"
     ]
   }
 }

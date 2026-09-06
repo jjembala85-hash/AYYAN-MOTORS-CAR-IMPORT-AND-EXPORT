@@ -6,21 +6,50 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:studio": "drizzle-kit studio",
+    "db:local": "tsx scripts/local-db.ts",
+    "db:verify": "tsx scripts/verify-schema.ts && tsx scripts/verify-catalog.ts",
+    "cache:clear": "tsx scripts/cache-clear.ts",
+    "admin:create": "tsx scripts/create-admin.ts",
+    "storage:check": "tsx scripts/check-storage.ts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dataloader": "^2.2.3",
+    "drizzle-orm": "^0.45.2",
+    "graphql": "^16.14.2",
+    "graphql-yoga": "^5.22.0",
+    "lucide-react": "^1.38.0",
     "next": "16.3.3",
+    "postgres": "^3.4.9",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "redis": "^6.2.1",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@electric-sql/pglite-socket": "^0.2.11",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.3.3",
     "tailwindcss": "^4",
+    "tsx": "^4.23.13",
     "typescript": "^5"
   }
 }
