@@ -25,8 +25,12 @@ vehicle detail pages are prerendered, so `next build` reads the catalogue.
    ```
 
 `src/server/db/client.ts` detects the `*.neon.tech` host and switches to Neon's
-HTTP driver automatically — no configuration, and no connection pool to exhaust
-between serverless invocations.
+WebSocket driver automatically — no configuration. Not the HTTP driver: it
+cannot hold a transaction open, and the admin actions write inside one.
+
+Run migrations and the seed against the **direct** host; give Vercel the
+**pooled** one (`ep-xxx-pooler...`). Drop `channel_binding=require` from the
+URL — postgres.js, which `drizzle-kit` uses, does not understand it.
 
 > **Use a real password for the production admin account.** `/admin/login` is
 > reachable by anyone who finds it. The local test account exists only on the

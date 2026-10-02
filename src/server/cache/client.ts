@@ -38,7 +38,7 @@ export const cacheEnabled =
  * deserialize one into the wrong type. Changing the namespace orphans them all
  * at once instead, which is cheaper than reasoning about which are still valid.
  */
-export const NAMESPACE = process.env.CACHE_NAMESPACE ?? "ayyan:v1";
+export const NAMESPACE = process.env.CACHE_NAMESPACE || "ayyan:v1";
 
 /** How long any single Redis round trip may take before we go to Postgres. */
 const TIMEOUT_MS = Number(process.env.CACHE_TIMEOUT_MS ?? 50);

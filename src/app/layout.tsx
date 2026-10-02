@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   /* Resolves the relative image paths in per-page Open Graph tags. Set
      NEXT_PUBLIC_SITE_URL per environment; the live domain is the fallback. */
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.ayyanmotorsltd.com",
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.ayyanmotorsltd.com",
   ),
   title: {
     default: "Ayyan Motors Ltd — Car Import & Export",

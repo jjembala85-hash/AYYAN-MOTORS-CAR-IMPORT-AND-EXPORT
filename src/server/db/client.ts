@@ -1,5 +1,5 @@
-import { neon } from "@neondatabase/serverless";
-import { drizzle as drizzleNeon } from "drizzle-orm/neon-http";
+import { Pool } from "@neondatabase/serverless";
+import { drizzle as drizzleNeon } from "drizzle-orm/neon-serverless";
 import { drizzle as drizzlePostgres } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import * as schema from "./schema";
@@ -11,15 +11,22 @@ import * as schema from "./schema";
  * (seeding, verification) that run in plain Node, where `server-only` throws.
  * The guard lives in `./index.ts`, which is what application code imports.
  *
- * Neon's HTTP driver is a good fit for serverless — no pool to exhaust between
- * invocations — but it only speaks to Neon. Supabase, Docker and any other
- * Postgres get postgres.js over TCP, so the same code deploys to either without
- * a rewrite. The choice is made from the URL rather than a second env var,
- * because a mismatch between the two would only surface at runtime.
+ * Neon gets its own WebSocket driver, everything else (Supabase, Docker, any
+ * other Postgres) gets postgres.js over TCP, so the same code deploys to either
+ * without a rewrite. The choice is made from the URL rather than a second env
+ * var, because a mismatch between the two would only surface at runtime.
+ *
+ * WebSocket, not Neon's HTTP driver: HTTP is one stateless request per query and
+ * cannot hold a transaction open, and the admin actions and the seed all write
+ * inside `db.transaction()`. Node 22+ ships a global WebSocket, so no `ws` dep.
  */
 export function createDbClient(url: string) {
   if (/\.neon\.tech|neon\.database|\bneondb\b/.test(url)) {
-    return drizzleNeon(neon(url), { schema });
+    const pool = new Pool({
+      connectionString: url,
+      max: Number(process.env.PG_POOL_MAX ?? 5),
+    });
+    return drizzleNeon(pool, { schema });
   }
 
   // `prepare: false` is required behind Supabase's transaction pooler, which
