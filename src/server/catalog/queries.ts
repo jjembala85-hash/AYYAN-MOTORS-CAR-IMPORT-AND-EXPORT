@@ -317,6 +317,14 @@ export async function listVehicleSlugs(db: Db): Promise<string[]> {
   return rows.map((r) => r.slug);
 }
 
+/** Every publicly reachable listing and when it last changed, for the sitemap. */
+export async function listSitemapEntries(db: Db): Promise<{ slug: string; updatedAt: Date }[]> {
+  return db
+    .select({ slug: schema.vehicles.slug, updatedAt: schema.vehicles.updatedAt })
+    .from(schema.vehicles)
+    .where(inArray(schema.vehicles.status, ["active", "reserved", "sold"]));
+}
+
 /**
  * Same body type first, then anything else from the same make, so a detail page
  * always fills its rail even for a one-off like the Brabus.

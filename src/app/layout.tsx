@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Archivo, Inter } from "next/font/google";
 import { themeScript } from "@/components/brand/theme-toggle";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -20,9 +21,7 @@ const archivo = Archivo({
 export const metadata: Metadata = {
   /* Resolves the relative image paths in per-page Open Graph tags. Set
      NEXT_PUBLIC_SITE_URL per environment; the live domain is the fallback. */
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.ayyanmotorsltd.com",
-  ),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Ayyan Motors Ltd — Car Import & Export",
     template: "%s · Ayyan Motors Ltd",
